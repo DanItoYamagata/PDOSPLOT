@@ -11,3 +11,10 @@
 
 ④FERMI_CONVERT.sh：DOSCARに記載されているDOSのエネルギーをFermiエネルギーを原点にするshellスクリプト。
 ④-1.FERMI_CONVERT.py：Fermiエネルギーを原点にエネルギーメッシュをシフトするプログラム
+
+
+①のメインプログラム
+ATOMList=( @@ )で指定したい原子を決める。つまりはLocal DOSを作る。
+
+①のメインプログラム
+ORBList=( @@ )でDOSを射影したい原子軌道を指定する。つまりはLPDOSを抽出するための変数。
